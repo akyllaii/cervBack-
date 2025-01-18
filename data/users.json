@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "john.doe@example.com",
+      "name": "John",
+      "surname": "Doe"
+    },
+    {
+      "id": 2,
+      "email": "jane.smith@example.com",
+      "name": "Jane",
+      "surname": "Smith"
+    },
+    {
+      "id": 3,
+      "email": "michael.johnson@example.com",
+      "name": "Michael",
+      "surname": "Johnson"
+    },
+    {
+      "id": 4,
+      "email": "emily.davis@example.com",
+      "name": "Emily",
+      "surname": "Davis"
+    },
+    {
+      "id": 5,
+      "email": "chris.brown@example.com",
+      "name": "Chris",
+      "surname": "Brown"
+    },
+    {
+      "id": 6,
+      "email": "sarah.miller@example.com",
+      "name": "Sarah",
+      "surname": "Miller"
+    },
+    {
+      "id": 7,
+      "email": "david.wilson@example.com",
+      "name": "David",
+      "surname": "Wilson"
+    },
+    {
+      "id": 8,
+      "email": "laura.moore@example.com",
+      "name": "Laura",
+      "surname": "Moore"
+    },
+    {
+      "id": 9,
+      "email": "daniel.taylor@example.com",
+      "name": "Daniel",
+      "surname": "Taylor"
+    },
+    {
+      "id": 10,
+      "email": "emma.anderson@example.com",
+      "name": "Emma",
+      "surname": "Anderson"
+    }
+  ]
+}
