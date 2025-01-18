@@ -20,7 +20,11 @@ api.use(cors())
 const PORT = process.env.PORT || 4444;
 
 const mongoDbPass = 'akylai123'
-mongoose.connect(`mongodb+srv://omurbekovaakylai:${mongoDbPass}@itrun.jtifz9k.mongodb.net/?retryWrites=true&w=majority&family=4`)
+mongoose.connect(`mongodb+srv://omurbekovaakylai:${mongoDbPass}@itrun.jtifz9k.mongodb.net/?retryWrites=true&w=majority&family=4`, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 30000,
+})
     .then(() => console.log('mongo успещно завпущен'))
     .catch((err) => console.log('error',err))
 
